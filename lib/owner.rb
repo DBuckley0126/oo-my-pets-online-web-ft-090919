@@ -64,8 +64,6 @@ attr_reader :name, :species
       cat.owner = nil
       Cat.all.clear
       end
-      #binding.pry
-
     end
 
     Dog.all.each do |dog|
@@ -73,9 +71,9 @@ attr_reader :name, :species
       dog.mood = "nervous"
       dog.owner = nil
       Dog.all.clear
+      end
     end
-  end
-
+end
 
 
 end
