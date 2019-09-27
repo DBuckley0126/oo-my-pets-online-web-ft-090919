@@ -68,9 +68,11 @@ attr_reader :name, :species
 
     end
 
-    self.dogs.each do |dog|
+    Dog.all.each do |dog|
+      if dog.owner = self
       dog.mood = "nervous"
       dog.owner = nil
+      Dog.all.clear
     end
   end
 
