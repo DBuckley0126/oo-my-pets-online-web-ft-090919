@@ -63,7 +63,7 @@ attr_reader :name, :species
       cat.mood = "nervous"
       cat.owner = nil
       end
-      #binding.pry
+      binding.pry
 
     end
 
