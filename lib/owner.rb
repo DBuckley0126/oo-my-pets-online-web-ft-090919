@@ -62,7 +62,7 @@ attr_reader :name, :species
       if cat.owner = self
       cat.mood = "nervous"
       cat.owner = nil
-      Cats.all.clear
+      Cat.all.clear
       end
       #binding.pry
 
